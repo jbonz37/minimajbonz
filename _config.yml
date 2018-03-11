@@ -1,1 +1,47 @@
+title: John's Site
+author: John Boniello
+email: johnboniello@gmail.com
+description: > # this means to ignore newlines until "twitter_username:"
+Welcome to my site. On this site you will find my semi-regular research roundup, occasional blog posts, 
+and my beta or fully active development projects. My goal is to make the hard stuff easier for teachers, 
+this means summarizing research and writing programs that might be helpful, 
+especially to teachers of students with disabilities and ELLs.
+# social links
+twitter_username: johnboniello
+github_username: johnboniello
+rss: rss
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+# instagram_username: jekyll
+# linkedin_username: jekyll
+# pinterest_username: jekyll
+# youtube_username: jekyll
+# googleplus_username: +jekyll
 
+# Mastodon instances
+# mastodon:
+# - username: jekyll
+#   instance: example.com
+# - username: jekyll2
+#   instance: example.com
+
+
+show_excerpts: true # set to true to show excerpts on the homepage
+
+# Minima date format
+# refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
+minima:
+  date_format: "%b %-d, %Y"
+
+# If you want to link only specific pages in your header, uncomment
+# this and add the path to the pages in order as they should show up
+#header_pages:
+# - about.html
+
+# Build settings
+markdown: kramdown
+theme: minima
+exclude:
+  - Gemfile
+  - Gemfile.lock
